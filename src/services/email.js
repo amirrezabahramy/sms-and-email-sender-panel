@@ -18,7 +18,7 @@ const sendMail = async ({ fullName, phoneNumber }) => {
       to: NODEMAILER_RECEIVER,
       subject: "اطلاعات کاربر برای کد تخفیف",
       html: `<div dir="rtl">
-                <h4>کلینیک زیبایی دکتر فهیمه عابدی</h4>
+                <h4>کلینیک زیبایی دکتر فهیمه عابدی منش</h4>
                 <p>نام کاربر: ${fullName}</p>
                 <p>شماره تماس کاربر: ${phoneNumber}</p>
             </div>`,
