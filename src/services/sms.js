@@ -20,11 +20,11 @@ const sendSms = async ({ fullName, phoneNumber }) => {
       templateId: SMS_SERVICE_TEMPLATE_ID,
       parameters: [
         {
-          name: "FULLNAME",
+          name: "F",
           value: fullName,
         },
         {
-          name: "PHONENUMBER",
+          name: "P",
           value: phoneNumber,
         },
       ],
