@@ -16,7 +16,7 @@ const getDiscount = async (req, res) => {
       errors.push("Phone number is required.");
     }
 
-    if (!/^9[0-9]\d{8}$/.test(phoneNumber)) {
+    if (!/^09[0-9]\d{8}$/.test(phoneNumber)) {
       errors.push("Please fill in a valid phone number.");
     }
 
